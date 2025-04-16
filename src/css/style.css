@@ -46,7 +46,7 @@ body {
 .hero {
     grid-area: hero;
     height: 89vh;
-    background: url('../images/lemons.jpg') center center no-repeat;
+    background: url('../images/farmacis.png') center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -135,12 +135,13 @@ body {
 }
 
 .about .image.right {
-    background: url('../images/bridge.jpg') center center no-repeat;
+    background: url('../images/i1.png') center center
+     no-repeat;
     background-size: cover;
 }
 
 .about .image.left {
-    background: url('../images/sky.jpg') center center no-repeat;
+    background: url('../images/i2.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -171,6 +172,7 @@ body {
 .services .service img {
     width: 250px;
     margin-bottom: 30px;
+    border-radius: 5%;
 }
 
 .services .service h3 {
